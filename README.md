@@ -16,7 +16,8 @@ You can install dependencies and try it by executing one of these files:
   * tournament.py - two agents competes with each other
   * connect4_agent.py - two selected agents competes with each other (gui)
   * connect4_human.py - selected agent plays with human player (gui)
-  
+
+## GUI  
   
 ![Game window](https://github.com/arvjus/connect4/blob/main/images/gui-screenshot.png)
 
@@ -27,3 +28,10 @@ But even after relatively little training model could win against 3-steps minima
 
 ![Learning rate](https://github.com/arvjus/connect4/blob/main/images/learning_rate.png)
 
+## Further improvements
+
+There are few things I should try in order to improve model:
+  * More learning - keep playing with the same agent until winning rate reaches 0.85-0.9 before jumping to the next level
+  * Change network model (deeper/wider)
+  * Implement Monte Carlo Tree Search agent and train network against it.
+  * Train network against itself
