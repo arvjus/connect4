@@ -17,7 +17,7 @@ You can install dependencies and try it by executing one of these files:
   * connect4_agent.py - two selected agents competes with each other (gui)
   * connect4_human.py - selected agent plays with human player (gui)
 
-## GUI  
+## Game window  
   
 ![Game window](https://github.com/arvjus/connect4/blob/main/images/gui-screenshot.png)
 
