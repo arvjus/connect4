@@ -18,12 +18,12 @@ You can install dependencies and try it by executing one of these files:
   * connect4_human.py - selected agent plays with human player (gui)
   
   
-![Game window](https://github.com/arvjus/connect4/images/gui-screenshot.png)
+![Game window](https://github.com/arvjus/connect4/blob/main/images/gui-screenshot.png)
 
 ## Training of network  
 
 I stardet model training with range of agents from weak to more complex and was quite surprised to see how quickly CNNAgent started to win. 
 But even after relatively little training model could win against 3-steps minimax algorithm, when I played against model I could easily win. It looks like we need longer training cycle in order to train competitive player.   
 
-![Learning rate](https://github.com/arvjus/connect4/images/learning_rate.png)
+![Learning rate](https://github.com/arvjus/connect4/blob/main/images/learning_rate.png)
 
